@@ -1,34 +1,171 @@
 body {
-    font-family: "Montserrat", sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 nav {
-    border-bottom: 1px solid white;
+  border-bottom: 1px solid white;
 }
 
 .main {
-    color: white;
+  color: white;
 }
 
 .main h1 {
-    font-weight: 400;
+  font-weight: 400;
 }
 
 .main h1 span {
-    font-weight: bold;
-    color: white;
+  font-weight: bold;
+  color: white;
 }
 
 .main p {
-    font-size: 20px;
-    margin-top: 30px;
+  font-size: 20px;
+  margin-top: 30px;
+}
+
+.main-image {
+  width: 530px;
 }
 
 .jumbotron {
-    background-color: #34495e;
-    border-radius: 0px;
+  background-color: #34495e;
+  border-radius: 0px;
 }
 
 .box-primary-shadow {
-    box-shadow: 0 5px 10px rgba(150, 148, 148, 0.842);
+  box-shadow: 0 5px 10px rgba(150, 148, 148, 0.842);
+}
+
+.data .bg-primary {
+  width: 100%;
+  border: 1px solid #007bff;
+  margin-top: 07px;
+}
+
+.data Span {
+  padding: 10px 20px 10px 20px;
+  border-radius: 1px;
+  border: none;
+}
+
+.emp-profile {
+  padding: 3%;
+  margin-top: 3%;
+  margin-bottom: 3%;
+  border-radius: 0.5rem;
+  background: #fff;
+}
+
+
+.profile-head h5 {
+  color: #333;
+}
+
+.profile-head h6 {
+  color: #0062cc;
+}
+
+.profile-edit-btn {
+  border: none;
+  border-radius: 1.5rem;
+  width: 70%;
+  padding: 2%;
+  font-weight: 600;
+  color: #6c757d;
+  cursor: pointer;
+}
+
+.proile-rating {
+  font-size: 12px;
+  color: #818182;
+  margin-top: 5%;
+}
+
+.proile-rating span {
+  color: #495057;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.profile-head .nav-tabs {
+  margin-bottom: 5%;
+}
+
+.profile-head .nav-tabs .nav-link {
+  font-weight: 600;
+  border: none;
+}
+
+.profile-head .nav-tabs .nav-link.active {
+  border: none;
+  border-bottom: 2px solid #0062cc;
+}
+
+.profile-work {
+  padding: 14%;
+  margin-top: -15%;
+}
+
+.profile-work p {
+  font-size: 12px;
+  color: #818182;
+  font-weight: 600;
+  margin-top: 10%;
+}
+
+.profile-work a {
+  text-decoration: none;
+  color: #495057;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.profile-work ul {
+  list-style: none;
+}
+
+.profile-tab label {
+  font-weight: 600;
+}
+
+.profile-tab p {
+  font-weight: 600;
+  color: #0062cc;
+}
+
+@media (max-width: 576px) {
+
+  .about tr {
+    font-size: 10px;
+  }
+
+  .about h3 {
+    font-size: 25px
+  }
+
+  .about p {
+    font-size: 14px;
+  }
+
+  .aboout table {
+    font-size: 12px;
+  }
+
+  .display-4 {
+    font-size: 32px;
+  }
+
+  .main p {
+    font-size: 16px;
+  }
+
+  .main-image {
+    width: 80%;
+  }
+
+
+
+
+
 }

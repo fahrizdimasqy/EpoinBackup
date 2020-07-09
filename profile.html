@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="dist/js/jquery-3.2.1.slim.min.js"></script>
+    <link rel="stylesheet" href="dist/css/bootstrap.css">
+    <link rel="stylesheet" href="dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="dist/css/style.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="dist//DataTables/datatables.min.css" />
+
+</head>
+
+<body style="background:#34495e">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark text-white" style="background-color: #34495e;">
+        <a class="navbar-brand" href="#">E-point SMK DB</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end pl-5" id=" navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="point_guru.html">Poin</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="pelanggaran.html">Pelanggaran</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="profile.html">Profile</a>
+                </li>
+            </ul>
+            <button class="btn btn-danger" data-toggle="modal" data-target="#loginModal" type="button">Logout</button>
+        </div>
+    </nav>
+    <!-- Akhir Navbar -->
+    <section class="data-guru">
+        <div class="container emp-profile">
+            <form method="post">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="profile-head">
+                            <h5>
+                                Ramlan Subakti
+                            </h5>
+                            <h6>
+                                Guru
+                            </h6>
+                            <ul class="nav nav-tabs" id="myTab" role="tablist">
+                                <li class="nav-item">
+                                    <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab"
+                                        aria-controls="home" aria-selected="true">Tentang</a>
+                                </li>
+
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <!-- <input type="submit" class="profile-edit-btn" name="btnAddMore" value="Ubah Profile"
+                            href="ubah_katasandi.html" /> -->
+                        <a href="ubah_katasandi.html" class="btn btn-secondary">Ubah Kata sandi</a>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="tab-content profile-tab" id="myTabContent">
+                            <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <label>NIP</label>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <p>XXXXXXX</p>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <label>Nama</label>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <p>Ramlan Subakti, S. Kom</p>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <label>Email</label>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <p>ramlansubakti@gmail.com</p>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <label>Kata Sandi</label>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <p>xxxxxxxxxxx</p>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <label>Nomor Telpon</label>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <p>0857xxxxx</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <label>Experience</label>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <p>Expert</p>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <label>Hourly Rate</label>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <p>10$/hr</p>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <label>Total Projects</label>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <p>230</p>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <label>English Level</label>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <p>Expert</p>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <label>Availability</label>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <p>6 months</p>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <label>Your Bio</label><br />
+                                        <p>Your detail description</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </section>
+
+</body>
+<script src="dist/js/datatable.js">
+</script>
+<script src="dist/js/bootstrap.js"></script>
+<script type="text/javascript" src="dist/DataTables/datatables.min.js"></script>
+<script src="dist/js/bootstrap.min.js"></script>
+
+</html>

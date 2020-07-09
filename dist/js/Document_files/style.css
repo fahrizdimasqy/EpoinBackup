@@ -1,0 +1,91 @@
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+nav {
+  border-bottom: 1px solid white;
+}
+
+.main {
+  color: white;
+}
+
+.main h1 {
+  font-weight: 400;
+}
+
+.main h1 span {
+  font-weight: bold;
+  color: white;
+}
+
+.main p {
+  font-size: 20px;
+  margin-top: 30px;
+}
+
+.main-image {
+  width: 530px;
+}
+
+.jumbotron {
+  background-color: #34495e;
+  border-radius: 0px;
+}
+
+.box-primary-shadow {
+  box-shadow: 0 5px 10px rgba(150, 148, 148, 0.842);
+}
+
+.data .bg-primary {
+  width: 100%;
+  border: 1px solid #007bff;
+  margin-top: 07px;
+}
+
+.data Span {
+  padding: 10px 20px 10px 20px;
+  border-radius: 1px;
+  border: none;
+}
+
+@media (max-width: 576px) {
+
+  .about tr {
+    font-size: 10px;
+  }
+
+  .about h3 {
+    font-size: 25px
+  }
+
+  .about p {
+    font-size: 14px;
+  }
+
+  .aboout table {
+    font-size: 12px;
+  }
+
+  .display-4 {
+    font-size: 32px;
+  }
+
+  .main p {
+    font-size: 16px;
+  }
+
+  .main-image {
+    width: 80%;
+  }
+
+
+  table {
+    font-size: 10px;
+  }
+
+  table {
+    width: 10px;
+
+  }
+}
