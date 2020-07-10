@@ -134,6 +134,26 @@ nav {
   color: #0062cc;
 }
 
+.form-login {
+  position: fixed;
+  margin-left: 27%;
+}
+
+#show-password {
+  background: url('../img/eye.png');
+  width: 50%;
+  height: 50%;
+  cursor: pointer;
+  vertical-align: middle;
+  display: inline-block;
+}
+
+#show-password:hover {
+  background-position-y: -16px;
+}
+
+
+
 @media (max-width: 576px) {
 
   .about tr {
@@ -164,8 +184,14 @@ nav {
     width: 80%;
   }
 
+  .container .btn-primary {
+    margin-bottom: 10px;
 
+  }
 
+  .form-login {
+    margin-left: 0;
+  }
 
 
 }

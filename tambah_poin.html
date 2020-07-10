@@ -26,16 +26,8 @@
         </button>
         <div class="collapse navbar-collapse justify-content-end pl-5" id="navbarNav">
             <ul class="navbar-nav">
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Poin
-                    </a>
-
-                    <div class="dropdown-menu" aria-laprofilebelledby="navbarDropdown">
-                        <a class="dropdown-item" href="point_guru.html">Poin</a>
-                        <a class="dropdown-item" href="kelas.html">Kelas</a>
-                    </div>
+                <li class="nav-item">
+                    <a class="nav-link" href="point_guru.html">Poin</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="pelanggaran.html">Pelanggaran</a>
@@ -48,34 +40,57 @@
         </div>
     </nav>
     <!-- Akhir Navbar -->
-    <div class="container mt-5">
+    <div class="container mt-5 mb-5">
         <div class="card">
             <h5 class="card-header bg-primary text-white">Tambah Poin</h5>
             <div class="card-body">
                 <form>
                     <div class="form-group">
-                        <label for="formGroupExampleInput">Nama Siswa</label>
-                        <input type="" class="form-control" id="formGroupExampleInput" placeholder="Nomor Pelanggaran">
-                    </div>
-                    <div class="form-group">
-                        <label for="formGroupExampleInput">Kelas</label>
-                        <input type="" class="form-control" id="formGroupExampleInput" placeholder="Nomor Pelanggaran">
-                    </div>
-                    <div class="form-group">
-                        <label for="formGroupExampleInput">Jenis Kelamin</label>
+                        <label for="formGroupExampleInput">Kategori</label>
                         <select name="" id="" class="form-control">
-                            <option value="">Pilih Jenis Kelamin</option>
-                            <option value="">Laki-laki</option>
-                            <option value="">Perempuan</option>
+                            <option value="">Pilih Kategori</option>
+                            <option value="">Sikap Dan Prilaku</option>
+                            <option value="">kerapian</option>
+                            <option value="">Kerajinan</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="formGroupExampleInput">Bentuk Pelanggaran</label>
+                        <select name="" id="" class="form-control">
+                            <option value="">Pilih Kategori</option>
+                            <option value="">Pelanggaran Ringan</option>
+                            <option value="">Pelanggaran Sedang</option>
+                            <option value="">Pelanggaran Berat</option>
                         </select>
                     </div>
                     <div class="form-group">
-                        <label for="formGroupExampleInput2">Poin</label>
-                        <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Kelas">
+                        <label for="formGroupExampleInput2">Kelas</label>
+                        <select name="" id="" class="form-control">
+                            <option value="">Pilih Kelas</option>
+                            <option value="">10 </option>
+                            <option value="">11</option>
+                            <option value="">12</option>
+                        </select>
+
                     </div>
+                    <div class="form-group">
+                        <label for="formGroupExampleInput2">Nama Siswa</label>
+                        <select name="" id="" class="form-control">
+                            <option value="">Pilih Nama Siswa</option>
+                            <option value="">Asep </option>
+                            <option value="">Ajeng</option>
+                            <option value="">Rizki</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="formGroupExampleInput2">Keterangan</label>
+                        <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Keterangan">
+                    </div>
+
                 </form>
-                <a href="#" class="btn btn-primary col-md-2">Save</a>
-                <a href="#" class="btn btn-danger col-md-2">Cancel</a>
+                <a href="#" class="btn btn-primary col-md-2">Simpan</a>
+                <a href="#" class="btn btn-danger col-md-2">Batal</a>
             </div>
         </div>
 </body>
